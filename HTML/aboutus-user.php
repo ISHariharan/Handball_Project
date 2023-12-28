@@ -1,0 +1,208 @@
+<?php
+session_start();
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="OTHERS/handball.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/indexs.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap">
+    <script src="https://kit.fontawesome.com/4a665312bb.js" crossorigin="anonymous"></script>
+    <title>handballarena.com</title>
+    <style>
+        .intro-container {
+            display: block;
+        }
+        .login a {
+          color: #fff;
+        }
+        
+        .login a:hover {
+          color: #000 !important;
+        }
+        li{
+          color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="DropDownbar">
+      <a href="user.php" class="Header">Handball Arena</a>
+        <ul>
+            <li><a href="../S_Work/rules.html">Handball</a>
+                <ul class="sub-dropdown">
+                    <li style="text-align: center;"><a href="../S_Work/rules.html">History</a></li>
+                    <li style="text-align: center;"><a href="../S_Work/rules.html">Rule & Regulation</a></li>
+                </ul>
+            </li>
+            <li><a href="live_stream.php">Live Stream</a></li>
+            <li><a href="search_matches.php">Search Matches</a></li>
+            <li><a href="update-user.php">Updates</a></li>
+            <li><a href="aboutus-user.php">About Us</a></li>
+            <li style="color: white;"><a href="#">Hi, <?php echo $_SESSION['username']; ?> &nbsp</a></li>
+            <li><a href="logout.html"><i class="fa-solid fa-right-from-bracket"></i></a></li></a>
+        </ul>
+    </nav>
+    <br> </br>
+    <br> </br>
+      
+    <h1>About Us</h1>
+    <div class="about-container">
+      <p class="p5">
+          <br>
+          Welcome to Handball Hub, your ultimate destination for everything related to handball live streaming, live scoring, and in-depth match analysis. We are passionate about bringing the excitement of handball matches right to your screens, providing an immersive experience for fans, players, and enthusiasts alike. Our platform is dedicated to enhancing your connection with the sport and making each match a memorable event.
+        </br>
+      </p>
+      <br></br>
+      <h1>Our Mission</h1>
+      <p class="p5">
+        
+          <br>
+          At Handball Hub, our mission is to revolutionize the way handball enthusiasts engage with the sport. We are committed to offering an all-encompassing platform that not only allows you to watch live handball matches but also provides you with real-time scoring updates and insightful analysis. Our aim is to create a thriving online community where fans can come together to celebrate the sport they love.
+        </br>
+      </p>
+      <br></br>
+      <h1>What We Offer</h1>
+      <p class="p2">
+        
+          <br>
+          <b>Live Streaming:</b> Experience the thrill of handball matches as if you were right there in the arena. Our live streaming feature ensures that you never miss a moment of the action, whether it's a crucial goal, a stunning save, or a game-changing play. The high-quality video streaming brings the excitement of the match to your devices.
+        </br>
+        <br>
+        <b>Live Scoring:</b> Stay updated with the latest scores and statistics in real-time. Our live scoring feature provides instant updates on the match progress, goals, penalties, and more. Whether you're following the game on your computer, tablet, or smartphone, you'll always be in the know.
+      </br>
+      <br>
+      <b>MatchID System:</b> We've introduced a unique "MatchID" system that allows you to easily access specific matches. Each match is assigned a distinct MatchID, making it simple for you to find, share, and revisit your favorite matches. This feature ensures seamless navigation and a personalized experience.
+    </br>
+      <br>
+      <b>Database of Matches:</b> Never worry about missing a match again. Our platform stores live video streams of matches in a secure database, allowing you to access past matches and relive the excitement whenever you want. Whether it's a recent match or a classic showdown, the matches are just a click away.
+    </br>
+      <br>
+      <b>Automated Analysis:</b> Our innovative automated analysis system takes match data, including scores, statistics, and key moments, to provide insightful post-match analysis. Delve into the finer details of the game, learn about player performance, and gain a deeper understanding of the strategies that shape each match.
+    </br>
+      </p>
+      <br>
+      <h1>Join the Community</h1></br> 
+      <p class="p5">
+       Handball Hub is more than just a platform; it's a community of passionate handball fans from around the world. Engage with fellow enthusiasts, share your thoughts on matches, players, and strategies, and make lasting connections with like-minded individuals who share your love for the sport.
+      </p>
+      
+      <div class="rules-container">
+        
+      </div>
+      <h1>Our Team</h1>
+            <div class="parent1">
+              <img src="../OTHERS/hari.jpg" style="height: 170px;width: 300px;">
+                
+              <p class="p2">
+                <b>Hari Haran IS</b>
+                  <br>
+                  "He is a founding member of our website. He played a key role in making backend of the website with PHP & Mysql. He is leading the team with courage."
+  
+                </br>
+              </p>
+              
+            </div>
+             
+              <div class="parent1">
+                
+                <p class="p2">
+                <b>Shadhani TT</b>
+                <br>
+                "He is a founding member of our website. He played a key role in designing webpage layout with HTML & CSS. He made every page attractive by inserting attractive elements in required area."
+               
+              </br>
+              </p>
+              <img src="../OTHERS/shadhani.jpg" class="handball-img" style="height: 170px;width: 300px;">
+            </div>
+              
+              <div class="parent1">
+                <img src="../OTHERS/jeevesh.JPG" style="height: 170px;width: 230px;">
+              <p class="p2">
+                  <b>Jeevesh PG</b>
+                  <br>
+                  "He is a founding member of our website. He played a key role in Testing, Hosting and Quality Assurance."
+               </br>
+              </p>
+             
+          </div>
+          <br></br>
+        <h1>Contact Us</h1>
+        <p class="p5">
+          <br>
+          We're always eager to hear from you! If you have any questions, feedback, or suggestions, please don't hesitate to get in touch with our dedicated support team. Your input helps us improve and deliver the best possible experience for our users.
+        </br>
+        <br>
+        Thank you for choosing Handball Hub as your go-to destination for handball live streaming, live scoring, and analysis. Let's come together to celebrate the spirit of handball like never before!
+      </br>
+        </p>
+
+        </div>
+        
+        </div>
+            <br> </br>
+    <br> </br>        
+    <footer>
+      <div class="content">
+        <div class="top">
+          <div class="logo-details">
+            <span class="logo_name">Handball Arena</span>
+          </div>
+          <div class="media-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-solid fa-mailbox"></i></a>
+          </div>
+        </div>
+        <div class="link-boxes">
+          <ul class="box">
+            <li class="link_name">Details</li>
+            <li>Info about handball</li>
+            <li>Contact us</li>
+            <li>About us</li>
+            <li>lets play</li>
+          </ul>
+          <ul class="box">
+            <li class="link_name"><a href="login-signin.php">Services</a></li>
+            <li>Host Matches</li>
+            <li>Analyse Matches</li>
+            <li>View Live Matches</li>
+            <li>Handball Info</li>
+          </ul>
+          <ul class="box">
+            <li class="link_name"><a href="login-signin.php">User</a></li>
+            <li>View Matches</li>
+            <li>View Analysis</li>
+          </ul>
+          <ul class="box">
+            <li class="link_name"><a href="login-signin.php">Host</a></li>
+            <li>Host Analysis</li>
+            <li>Host Matches</li>
+          </ul>
+          <ul class="box input-box">
+            <li class="link_name">Follow</li>
+            <li><input type="text" placeholder="Enter your email"></li>
+            <li><input type="button" value="Send"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom-details">
+        <div class="bottom_text">
+          <span class="copyright_text">Copyright © 2023 <a href="#">Handball Arena.</a>All rights reserved</span>
+          <span class="policy_terms">
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms & condition</a>
+          </span>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
+
+      
