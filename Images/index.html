@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Increment and Decrement</title>
+</head>
+<body>
+    <form action="action.php" method="POST">
+        <button type="button" onclick=change(1)>+</button>
+        <input type="text" value="0" id="data-completed" name='counter-value' readonly>
+        <button type="button" onclick="change(-1)">-</button>
+        <input type="submit" value="Submit">
+    </form>
+    <script>
+        let count = 0;
+        let changes = document.getElementById('data-completed');
+        function change(click){
+            count = count + click;
+            if(count<0){
+                count = 0;
+            }
+            changes.value = count;
+        }
+    </script>
+</body>
+</html>
