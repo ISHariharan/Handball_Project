@@ -1,0 +1,77 @@
+.match-output{
+    margin: auto;
+    font-weight: bolder;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 10%;
+}
+
+.t1-players{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 1%;
+    margin: 5% 10% 0% 10%;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+.team1{
+    text-align: center;
+}
+
+.players-team1{
+    margin: 0% 0% 0% 5%;
+    width: 250px;
+    height: 230px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10%;
+}
+
+.players-team1:hover{
+    width: 250px;
+    height: 230px;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer; /* Add a pointer cursor to indicate interactivity */
+    transition: all 0.3s;
+}
+
+.players-team1:hover .player-number,
+.players-team1:hover .player-name {
+    color: white;
+}
+
+.player-number{
+    color: black;
+    font-size: 400%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: -5%;
+    font-weight: bolder;
+}
+
+.player-name{
+    color: black;
+    font-size: 100%;
+    text-align: center;
+    margin-top: 0%;
+    font-weight: bolder;
+}
+
+
+/*Table*/
+table{
+    margin-top: 2%;
+}
+td{
+    text-align: center;
+}
+
+th{
+    text-align: center;
+}
